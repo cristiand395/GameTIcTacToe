@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -28,6 +29,7 @@
                 android:layout_height="wrap_content"
                 android:text="Winner!"
                 android:textSize="30dp"
+                android:textColor="@color/black"
                 android:gravity="center_horizontal"
                 android:textStyle="bold"
                 android:visibility="invisible"/>
